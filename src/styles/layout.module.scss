@@ -107,3 +107,19 @@ $default-dark-grey: #3d3d3d;
   max-width: 40%;
   gap: 1rem;
 }
+
+@media screen and (max-width: 549px) {
+  .heroDescription {
+    max-width: 85%;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .testimonialContainer {
+    @include flexV;
+  }
+
+  .testimonialCard {
+    max-width: 80%;
+  }
+}
