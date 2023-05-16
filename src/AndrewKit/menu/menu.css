@@ -1,0 +1,8 @@
+.andrewkit-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border-bottom: 2px solid rgb(168, 165, 165);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  }
